@@ -1,0 +1,63 @@
+*{
+    font-family: 'NanumSquareR';
+
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-size: 1em;
+    color: white;
+    letter-spacing: 1px;
+
+    scroll-behavior: smooth;
+
+    user-select: none;
+}
+#layout{
+    background-color: #010D14;
+    color: white;
+    height: auto;
+    overflow: hidden;
+}
+.noIE{
+    color: #36AFFF;
+
+    position: fixed;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    font-size: 1.5em;
+}
+::-webkit-scrollbar {
+    background: transparent;
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,.05);
+}
+::-webkit-scrollbar-thumb {
+    background: #36AFFF;
+}
+
+.title--normal{
+    color: #36afff;
+    font-size: 2.4em;
+    line-height: 2em;
+    text-align: center;
+    width: 100%;
+}
+.title--small{
+    width: 100%;
+    color: #36afff;
+    font-size: 1.8em;
+    line-height: 2em;
+}
+.content--normal{
+    font-size: 1.5em;
+    line-height: 2em;
+}
